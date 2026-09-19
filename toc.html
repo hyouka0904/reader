@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>目錄</title>
+<style>
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    background: #14171c;
+    color: #e9e4d8;
+    font-family: "Noto Sans TC", system-ui, sans-serif;
+  }
+
+  #wrap {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 1.5rem 1.25rem 3rem;
+  }
+
+  #back {
+    display: inline-block;
+    background: none;
+    border: none;
+    color: #9d9788;
+    font-family: inherit;
+    font-size: 0.9rem;
+    cursor: pointer;
+    padding: 0.4rem 0.2rem;
+    margin-bottom: 1rem;
+  }
+
+  #back:hover,
+  #back:focus-visible {
+    color: #e9e4d8;
+  }
+
+  #status {
+    color: #9d9788;
+    font-size: 0.9rem;
+  }
+
+  ul#list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #2c333c;
+  }
+
+  ul#list li {
+    border-bottom: 1px solid #2c333c;
+  }
+
+  .chapter-btn {
+    display: block;
+    width: 100%;
+    text-align: left;
+    background: none;
+    border: none;
+    color: inherit;
+    font-family: inherit;
+    font-size: 0.98rem;
+    padding: 0.75rem 0.3rem;
+    cursor: pointer;
+  }
+
+  .chapter-btn:hover,
+  .chapter-btn:focus-visible {
+    color: #e0993f;
+  }
+</style>
+</head>
+<body>
+
+<div id="wrap">
+  <button id="back" type="button">← 返回</button>
+  <p id="status">讀取中…</p>
+  <ul id="list"></ul>
+</div>
+
+<script src="common.js"></script>
+<script>
+  const folder = getQueryParam("folder");
+
+  document.getElementById("back").addEventListener("click", () => {
+    location.href = "index.html";
+  });
+
+  async function init() {
+    const status = document.getElementById("status");
+    const list = document.getElementById("list");
+
+    if (!folder) {
+      status.textContent = "缺少 folder 參數。";
+      return;
+    }
+
+    try {
+      const items = await fetchDirListing(`files/${folder}`);
+      const chapters = sortChapterFiles(items);
+
+      if (chapters.length === 0) {
+        status.textContent = "這個資料夾底下沒有 .txt 檔案。";
+        return;
+      }
+
+      cacheChapterList(folder, chapters);
+
+      status.remove();
+      chapters.forEach((chapter, index) => {
+        const li = document.createElement("li");
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "chapter-btn";
+        btn.textContent = chapter.title;
+        btn.addEventListener("click", () => {
+          location.href =
+            `reader.html?folder=${encodeURIComponent(folder)}&file=${encodeURIComponent(chapter.name)}`;
+        });
+        li.appendChild(btn);
+        list.appendChild(li);
+      });
+    } catch (err) {
+      status.textContent = err.message;
+    }
+  }
+
+  init();
+</script>
+</body>
+</html>

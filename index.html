@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>藏書庫</title>
+<style>
+  * { box-sizing: border-box; }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #14171c;
+    color: #e9e4d8;
+    font-family: "Noto Sans TC", system-ui, sans-serif;
+  }
+
+  #menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    width: min(90vw, 320px);
+  }
+
+  .folder-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: inherit;
+    font-size: 1rem;
+    color: #e9e4d8;
+    background: #1b2027;
+    border: 1px solid #2c333c;
+    border-radius: 6px;
+    padding: 0.85rem 1rem;
+    cursor: pointer;
+    transition: border-color 0.15s ease;
+  }
+
+  .folder-btn:hover,
+  .folder-btn:focus-visible {
+    border-color: #c9822f;
+  }
+
+  #status {
+    color: #9d9788;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<div id="menu">
+  <p id="status">讀取中…</p>
+</div>
+
+<script src="common.js"></script>
+<script>
+  async function init() {
+    const menu = document.getElementById("menu");
+
+    try {
+      const items = await fetchDirListing("files");
+      const folders = items.filter((it) => it.type === "dir");
+
+      if (folders.length === 0) {
+        menu.innerHTML = '<p id="status">files/ 底下沒有資料夾</p>';
+        return;
+      }
+
+      menu.innerHTML = "";
+      for (const folder of folders) {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "folder-btn";
+        btn.textContent = folder.name;
+        btn.addEventListener("click", () => {
+          location.href = `toc.html?folder=${encodeURIComponent(folder.name)}`;
+        });
+        menu.appendChild(btn);
+      }
+    } catch (err) {
+      menu.innerHTML = `<p id="status">${escapeHtml(err.message)}</p>`;
+    }
+  }
+
+  init();
+</script>
+</body>
+</html>
