@@ -227,6 +227,27 @@
         "title": "第 124 話 遺物商店",
         "title_ja": "第124話 遺物販売店",
         "epub_path": "text/part0007.html"
+      },
+      {
+        "file": "125.txt",
+        "number": 125,
+        "title": "第 125 話 接連不斷的賭局",
+        "title_ja": "第125話 続く賭け事",
+        "epub_path": "text/part0008.html"
+      },
+      {
+        "file": "126.txt",
+        "number": 126,
+        "title": "第 126 話 一片雷區",
+        "title_ja": "第126話 ある地雷原",
+        "epub_path": "text/part0009.html"
+      },
+      {
+        "file": "127.txt",
+        "number": 127,
+        "title": "第 127 話 賺來的錢怎麼花",
+        "title_ja": "第127話 稼いだ金の使い方",
+        "epub_path": "text/part0010.html"
       }
     ]
   }
