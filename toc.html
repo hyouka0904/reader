@@ -99,15 +99,14 @@
     }
 
     try {
-      const items = await fetchDirListing(`files/${folder}`);
-      const chapters = sortChapterFiles(items);
+      const chapters = await loadChapters(folder);
 
       if (chapters.length === 0) {
         status.textContent = "這個資料夾底下沒有 .txt 檔案。";
         return;
       }
 
-      cacheChapterList(folder, chapters);
+      if (!isBookVolume(folder)) cacheChapterList(folder, chapters);
 
       status.remove();
       chapters.forEach((chapter, index) => {

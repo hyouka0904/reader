@@ -128,18 +128,20 @@
     const btnPrev = document.getElementById("btn-prev");
     const btnNext = document.getElementById("btn-next");
 
+    btnPrev.disabled = true;
+    btnNext.disabled = true;
+
     if (!folder || !file) {
       contentEl.innerHTML = "<p>缺少 folder 或 file 參數。</p>";
       return;
     }
 
     // 優先用 toc.html 存好的清單，省一次 API 請求；沒有的話再重新抓一次。
-    let chapters = getCachedChapterList(folder);
+    let chapters = isBookVolume(folder) ? null : getCachedChapterList(folder);
     if (!chapters) {
       try {
-        const items = await fetchDirListing(`files/${folder}`);
-        chapters = sortChapterFiles(items);
-        cacheChapterList(folder, chapters);
+        chapters = await loadChapters(folder);
+        if (!isBookVolume(folder)) cacheChapterList(folder, chapters);
       } catch (err) {
         contentEl.innerHTML = `<p>${escapeHtml(err.message)}</p>`;
         return;

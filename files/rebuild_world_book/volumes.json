@@ -1,0 +1,142 @@
+[
+  {
+    "folder": "rebuild_world_book/01",
+    "title": "重組世界｜書籍版 第 1 分卷",
+    "title_ja": "リビルドワールドI＜上＞ 誘う亡霊",
+    "chapters": [
+      {
+        "file": "001.txt",
+        "number": 1,
+        "title": "第 1 話 阿基拉與阿爾法",
+        "title_ja": "第1話 アキラとアルファ",
+        "epub_path": "text/part0008.html"
+      },
+      {
+        "file": "002.txt",
+        "number": 2,
+        "title": "第 2 話 各自的覺悟",
+        "title_ja": "第2話 覚悟の担当",
+        "epub_path": "text/part0009.html"
+      },
+      {
+        "file": "003.txt",
+        "number": 3,
+        "title": "第 3 話 賭上性命的代價",
+        "title_ja": "第3話 命賭けの対価",
+        "epub_path": "text/part0010.html"
+      },
+      {
+        "file": "004.txt",
+        "number": 4,
+        "title": "第 4 話 舊世界的幽靈",
+        "title_ja": "第4話 旧世界の幽霊",
+        "epub_path": "text/part0011.html"
+      },
+      {
+        "file": "005.txt",
+        "number": 5,
+        "title": "第 5 話 阿基拉與靜香",
+        "title_ja": "第5話 アキラとシズカ",
+        "epub_path": "text/part0012.html"
+      },
+      {
+        "file": "006.txt",
+        "number": 6,
+        "title": "第 6 話 相信",
+        "title_ja": "第6話 信じる",
+        "epub_path": "text/part0013.html"
+      },
+      {
+        "file": "007.txt",
+        "number": 7,
+        "title": "第 7 話 艾蕾娜與莎拉",
+        "title_ja": "第7話 エレナとサラ",
+        "epub_path": "text/part0014.html"
+      },
+      {
+        "file": "008.txt",
+        "number": 8,
+        "title": "第 8 話 殺人的理由",
+        "title_ja": "第8話 殺しの理由",
+        "epub_path": "text/part0015.html"
+      }
+    ]
+  },
+  {
+    "folder": "rebuild_world_book/07",
+    "title": "重組世界｜書籍版 第 IV 卷",
+    "title_ja": "リビルドワールドIV 現世界と旧世界の闘争",
+    "chapters": [
+      {
+        "file": "103.txt",
+        "number": 103,
+        "title": "第 103 話 現世界與舊世界的鬥爭",
+        "title_ja": "第103話 現世界と旧世界の闘争",
+        "epub_path": "text/part0007.html"
+      },
+      {
+        "file": "104.txt",
+        "number": 104,
+        "title": "第 104 話 兩位女僕與她們的主人",
+        "title_ja": "第104話 メイドとメイドとその主人",
+        "epub_path": "text/part0008.html"
+      },
+      {
+        "file": "105.txt",
+        "number": 105,
+        "title": "第 105 話 疑慮的消除",
+        "title_ja": "第105話 懸念の解消",
+        "epub_path": "text/part0009.html"
+      },
+      {
+        "file": "106.txt",
+        "number": 106,
+        "title": "第 106 話 工廠區",
+        "title_ja": "第106話 工場区画",
+        "epub_path": "text/part0010.html"
+      },
+      {
+        "file": "107.txt",
+        "number": 107,
+        "title": "第 107 話 阿基拉與卡蘿兒",
+        "title_ja": "第107話 アキラとキャロル",
+        "epub_path": "text/part0011.html"
+      },
+      {
+        "file": "108.txt",
+        "number": 108,
+        "title": "第 108 話 今天第二次",
+        "title_ja": "第108話 本日2度目",
+        "epub_path": "text/part0012.html"
+      },
+      {
+        "file": "109.txt",
+        "number": 109,
+        "title": "第 109 話 毫無虛假的話",
+        "title_ja": "第109話 噓偽りの無い言葉",
+        "epub_path": "text/part0013.html"
+      },
+      {
+        "file": "110.txt",
+        "number": 110,
+        "title": "第 110 話 委託邀約與同行者",
+        "title_ja": "第110話 依頼の誘いと同行者",
+        "epub_path": "text/part0014.html"
+      },
+      {
+        "file": "111.txt",
+        "number": 111,
+        "title": "第 111 話 異變後的遺跡",
+        "title_ja": "第111話 異変後の遺跡",
+        "epub_path": "text/part0015.html"
+      },
+      {
+        "file": "112.txt",
+        "number": 112,
+        "title": "第 112 話 同行者們",
+        "title_ja": "第112話 同行者達",
+        "epub_path": "text/part0016.html"
+      }
+    ]
+  }
+]

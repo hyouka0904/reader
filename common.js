@@ -101,3 +101,31 @@ function getCachedChapterList(folder) {
     return null;
   }
 }
+
+
+// 書籍版使用隨網站發布的索引，卷內導覽不會讀取網路版同號章節。
+async function fetchBookVolumes() {
+  const response = await fetch("files/rebuild_world_book/volumes.json", { cache: "no-cache" });
+  if (!response.ok) throw new Error("書籍版目錄載入失敗。");
+  return response.json();
+}
+
+function isBookVolume(folder) {
+  return folder.startsWith("rebuild_world_book/");
+}
+
+async function loadChapters(folder) {
+  if (!isBookVolume(folder)) {
+    return sortChapterFiles(await fetchDirListing(`files/${folder}`));
+  }
+
+  const volumes = await fetchBookVolumes();
+  const volume = volumes.find((entry) => entry.folder === folder);
+  if (!volume) throw new Error("找不到這個書籍版分卷。");
+
+  return volume.chapters.map((chapter) => ({
+    name: chapter.file,
+    title: chapter.title,
+    download_url: `files/${volume.folder}/${encodeURIComponent(chapter.file)}`,
+  }));
+}

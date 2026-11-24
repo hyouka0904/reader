@@ -63,28 +63,41 @@
   async function init() {
     const menu = document.getElementById("menu");
 
-    try {
-      const items = await fetchDirListing("files");
-      const folders = items.filter((it) => it.type === "dir");
+    const results = await Promise.allSettled([
+      fetchBookVolumes(),
+      fetchDirListing("files"),
+    ]);
+    menu.replaceChildren();
 
-      if (folders.length === 0) {
-        menu.innerHTML = '<p id="status">files/ 底下沒有資料夾</p>';
-        return;
-      }
+    function addEntry(folder, label) {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "folder-btn";
+      btn.textContent = label;
+      btn.addEventListener("click", () => {
+        location.href = `toc.html?folder=${encodeURIComponent(folder)}`;
+      });
+      menu.appendChild(btn);
+    }
 
-      menu.innerHTML = "";
-      for (const folder of folders) {
-        const btn = document.createElement("button");
-        btn.type = "button";
-        btn.className = "folder-btn";
-        btn.textContent = folder.name;
-        btn.addEventListener("click", () => {
-          location.href = `toc.html?folder=${encodeURIComponent(folder.name)}`;
-        });
-        menu.appendChild(btn);
+    const [books, web] = results;
+    if (books.status === "fulfilled") {
+      for (const volume of books.value) {
+        if (volume.chapters.length) addEntry(volume.folder, volume.title);
       }
-    } catch (err) {
-      menu.innerHTML = `<p id="status">${escapeHtml(err.message)}</p>`;
+    }
+    if (web.status === "fulfilled") {
+      for (const folder of web.value.filter((item) =>
+        item.type === "dir" && item.name !== "rebuild_world_book"
+      )) {
+        const label = folder.name === "rebuild_world" ? "重組世界｜網路版" : folder.name;
+        addEntry(folder.name, label);
+      }
+    } else {
+      const status = document.createElement("p");
+      status.id = "status";
+      status.textContent = web.reason.message;
+      menu.appendChild(status);
     }
   }
 
