@@ -136,6 +136,27 @@
         "title": "第 112 話 同行者們",
         "title_ja": "第112話 同行者達",
         "epub_path": "text/part0016.html"
+      },
+      {
+        "file": "113.txt",
+        "number": 113,
+        "title": "第 113 話 救援委託",
+        "title_ja": "第113話 救援依頼",
+        "epub_path": "text/part0017.html"
+      },
+      {
+        "file": "114.txt",
+        "number": 114,
+        "title": "第 114 話 還人情的優先順序",
+        "title_ja": "第114話 借りの優先順位",
+        "epub_path": "text/part0018.html"
+      },
+      {
+        "file": "115.txt",
+        "number": 115,
+        "title": "第 115 話 新的委託",
+        "title_ja": "第115話 新たな依頼",
+        "epub_path": "text/part0019.html"
       }
     ]
   }
