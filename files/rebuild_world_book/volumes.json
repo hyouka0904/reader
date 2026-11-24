@@ -178,6 +178,27 @@
         "title": "第 118 話 背叛者的雇主",
         "title_ja": "第118話 裏切り者の雇い主",
         "epub_path": "text/part0022.html"
+      },
+      {
+        "file": "119.txt",
+        "number": 119,
+        "title": "第 119 話 會動的屍體",
+        "title_ja": "第119話 動く死体",
+        "epub_path": "text/part0023.html"
+      },
+      {
+        "file": "120.txt",
+        "number": 120,
+        "title": "第 120 話 分散的影響",
+        "title_ja": "第120話 分断の影響",
+        "epub_path": "text/part0024.html"
+      },
+      {
+        "file": "121.txt",
+        "number": 121,
+        "title": "第 121 話 殺意的消長",
+        "title_ja": "第121話 殺意の推移",
+        "epub_path": "text/part0025.html"
       }
     ]
   }
