@@ -157,6 +157,27 @@
         "title": "第 115 話 新的委託",
         "title_ja": "第115話 新たな依頼",
         "epub_path": "text/part0019.html"
+      },
+      {
+        "file": "116.txt",
+        "number": 116,
+        "title": "第 116 話 獲救的人",
+        "title_ja": "第116話 助かった者",
+        "epub_path": "text/part0020.html"
+      },
+      {
+        "file": "117.txt",
+        "number": 117,
+        "title": "第 117 話 全都搞砸了",
+        "title_ja": "第117話 台無し",
+        "epub_path": "text/part0021.html"
+      },
+      {
+        "file": "118.txt",
+        "number": 118,
+        "title": "第 118 話 背叛者的雇主",
+        "title_ja": "第118話 裏切り者の雇い主",
+        "epub_path": "text/part0022.html"
       }
     ]
   }
