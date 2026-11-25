@@ -353,6 +353,34 @@
         "title": "第 142 話 難以令人滿意的結局",
         "title_ja": "第142話 満足に欠ける決着",
         "epub_path": "text/part0025.html"
+      },
+      {
+        "file": "143.txt",
+        "number": 143,
+        "title": "第 143 話 難堪的強大",
+        "title_ja": "第143話 みっともない強さ",
+        "epub_path": "text/part0026.html"
+      },
+      {
+        "file": "144.txt",
+        "number": 144,
+        "title": "第 144 話 重操獵人舊業",
+        "title_ja": "第144話 ハンター稼業再開",
+        "epub_path": "text/part0027.html"
+      }
+    ]
+  },
+  {
+    "folder": "rebuild_world_book/09",
+    "title": "重組世界｜書籍版 第 9 分卷",
+    "title_ja": "リビルドワールドVI〈上〉 統治系管理人格",
+    "chapters": [
+      {
+        "file": "145.txt",
+        "number": 145,
+        "title": "第 145 話 椿",
+        "title_ja": "第145話 ツバキ",
+        "epub_path": "text/part0006.html"
       }
     ]
   }
