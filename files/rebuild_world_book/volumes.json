@@ -269,6 +269,27 @@
         "title": "第 130 話 倉庫裡的幾方人馬",
         "title_ja": "第130話 倉庫の関係者達",
         "epub_path": "text/part0013.html"
+      },
+      {
+        "file": "131.txt",
+        "number": 131,
+        "title": "第 131 話 難以理解的入侵者",
+        "title_ja": "第131話 不可解な侵入者",
+        "epub_path": "text/part0014.html"
+      },
+      {
+        "file": "132.txt",
+        "number": 132,
+        "title": "第 132 話 四億歐拉姆的強化服",
+        "title_ja": "第132話 4億オーラムの強化服",
+        "epub_path": "text/part0015.html"
+      },
+      {
+        "file": "133.txt",
+        "number": 133,
+        "title": "第 133 話 出乎意料",
+        "title_ja": "第133話 予想外",
+        "epub_path": "text/part0016.html"
       }
     ]
   }
