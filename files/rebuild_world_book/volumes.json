@@ -423,6 +423,27 @@
         "title": "第 151 話 由米娜的訓練",
         "title_ja": "第151話 ユミナの訓練",
         "epub_path": "text/part0012.html"
+      },
+      {
+        "file": "152.txt",
+        "number": 152,
+        "title": "第 152 話 一場關鍵考驗",
+        "title_ja": "第152話 ある一つの正念場",
+        "epub_path": "text/part0013.html"
+      },
+      {
+        "file": "153.txt",
+        "number": 153,
+        "title": "第 153 話 由米娜的契機",
+        "title_ja": "第153話 ユミナの契機",
+        "epub_path": "text/part0014.html"
+      },
+      {
+        "file": "154.txt",
+        "number": 154,
+        "title": "第 154 話 提歐爾的哀嘆",
+        "title_ja": "第154話 ティオルの嘆き",
+        "epub_path": "text/part0015.html"
       }
     ]
   }
