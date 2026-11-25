@@ -402,6 +402,27 @@
         "title": "第 148 話 謝麗爾的遺物販售店",
         "title_ja": "第148話 シェリルの遺物販売店",
         "epub_path": "text/part0009.html"
+      },
+      {
+        "file": "149.txt",
+        "number": 149,
+        "title": "第 149 話 獵人等級調整委託",
+        "title_ja": "第149話 ハンターランク調整依頼",
+        "epub_path": "text/part0010.html"
+      },
+      {
+        "file": "150.txt",
+        "number": 150,
+        "title": "第 150 話 遺跡深處的怪物",
+        "title_ja": "第150話 奥部のモンスター",
+        "epub_path": "text/part0011.html"
+      },
+      {
+        "file": "151.txt",
+        "number": 151,
+        "title": "第 151 話 由米娜的訓練",
+        "title_ja": "第151話 ユミナの訓練",
+        "epub_path": "text/part0012.html"
       }
     ]
   }
