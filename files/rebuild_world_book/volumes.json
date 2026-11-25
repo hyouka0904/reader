@@ -332,6 +332,27 @@
         "title": "第 139 話 準備就緒",
         "title_ja": "第139話 準備完了",
         "epub_path": "text/part0022.html"
+      },
+      {
+        "file": "140.txt",
+        "number": 140,
+        "title": "第 140 話 大規模火拼爆發",
+        "title_ja": "第140話 大抗争開始",
+        "epub_path": "text/part0023.html"
+      },
+      {
+        "file": "141.txt",
+        "number": 141,
+        "title": "第 141 話 優先順序",
+        "title_ja": "第141話 優先順位",
+        "epub_path": "text/part0024.html"
+      },
+      {
+        "file": "142.txt",
+        "number": 142,
+        "title": "第 142 話 難以令人滿意的結局",
+        "title_ja": "第142話 満足に欠ける決着",
+        "epub_path": "text/part0025.html"
       }
     ]
   }
