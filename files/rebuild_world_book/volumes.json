@@ -290,6 +290,27 @@
         "title": "第 133 話 出乎意料",
         "title_ja": "第133話 予想外",
         "epub_path": "text/part0016.html"
+      },
+      {
+        "file": "134.txt",
+        "number": 134,
+        "title": "第 134 話 八林診所",
+        "title_ja": "第134話 八林診療所",
+        "epub_path": "text/part0017.html"
+      },
+      {
+        "file": "135.txt",
+        "number": 135,
+        "title": "第 135 話 變現",
+        "title_ja": "第135話 換金",
+        "epub_path": "text/part0018.html"
+      },
+      {
+        "file": "136.txt",
+        "number": 136,
+        "title": "第 136 話 柳澤的來意",
+        "title_ja": "第136話 ヤナギサワの用事",
+        "epub_path": "text/part0019.html"
       }
     ]
   }
