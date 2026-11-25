@@ -381,6 +381,27 @@
         "title": "第 145 話 椿",
         "title_ja": "第145話 ツバキ",
         "epub_path": "text/part0006.html"
+      },
+      {
+        "file": "146.txt",
+        "number": 146,
+        "title": "第 146 話 廢棄品與某種考量",
+        "title_ja": "第146話 廃棄品と、ある配慮",
+        "epub_path": "text/part0007.html"
+      },
+      {
+        "file": "147.txt",
+        "number": 147,
+        "title": "第 147 話 舊世界製的資訊終端",
+        "title_ja": "第147話 旧世界製の情報端末",
+        "epub_path": "text/part0008.html"
+      },
+      {
+        "file": "148.txt",
+        "number": 148,
+        "title": "第 148 話 謝麗爾的遺物販售店",
+        "title_ja": "第148話 シェリルの遺物販売店",
+        "epub_path": "text/part0009.html"
       }
     ]
   }
