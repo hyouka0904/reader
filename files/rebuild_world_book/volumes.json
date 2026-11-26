@@ -556,6 +556,27 @@
         "title": "第 169 話 奢侈的泡澡體驗",
         "title_ja": "第169話 贅沢な風呂",
         "epub_path": "text/part0007.html"
+      },
+      {
+        "file": "170.txt",
+        "number": 170,
+        "title": "第 170 話 強化服試穿會",
+        "title_ja": "第170話 強化服の試用会",
+        "epub_path": "text/part0008.html"
+      },
+      {
+        "file": "171.txt",
+        "number": 171,
+        "title": "第 171 話 由米娜的實力",
+        "title_ja": "第171話 ユミナの実力",
+        "epub_path": "text/part0009.html"
+      },
+      {
+        "file": "172.txt",
+        "number": 172,
+        "title": "第 172 話 模擬戰",
+        "title_ja": "第172話 模擬戦",
+        "epub_path": "text/part0010.html"
       }
     ]
   }
