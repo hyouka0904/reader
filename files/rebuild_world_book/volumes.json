@@ -507,6 +507,27 @@
         "title": "第 163 話 送貨員，或是闖入者",
         "title_ja": "第163話 配達人、または乱入者",
         "epub_path": "text/part0024.html"
+      },
+      {
+        "file": "164.txt",
+        "number": 164,
+        "title": "第 164 話 提歐爾的變異",
+        "title_ja": "第164話 ティオルの変異",
+        "epub_path": "text/part0025.html"
+      },
+      {
+        "file": "165.txt",
+        "number": 165,
+        "title": "第 165 話 自動人偶",
+        "title_ja": "第165話 自動人形",
+        "epub_path": "text/part0026.html"
+      },
+      {
+        "file": "166.txt",
+        "number": 166,
+        "title": "第 166 話 現實的解析度",
+        "title_ja": "第166話 現実の解像度",
+        "epub_path": "text/part0027.html"
       }
     ]
   }
