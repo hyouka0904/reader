@@ -486,6 +486,27 @@
         "title": "第 160 話 運氣也是實力的一部分",
         "title_ja": "第160話 運も実力の内",
         "epub_path": "text/part0021.html"
+      },
+      {
+        "file": "161.txt",
+        "number": 161,
+        "title": "第 161 話 綜合支援系統的缺點",
+        "title_ja": "第161話 総合支援システムの欠点",
+        "epub_path": "text/part0022.html"
+      },
+      {
+        "file": "162.txt",
+        "number": 162,
+        "title": "第 162 話 競爭對手",
+        "title_ja": "第162話 競争相手",
+        "epub_path": "text/part0023.html"
+      },
+      {
+        "file": "163.txt",
+        "number": 163,
+        "title": "第 163 話 送貨員，或是闖入者",
+        "title_ja": "第163話 配達人、または乱入者",
+        "epub_path": "text/part0024.html"
       }
     ]
   }
