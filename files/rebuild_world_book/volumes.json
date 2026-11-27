@@ -598,6 +598,27 @@
         "title": "第 175 話 椿原一帶",
         "title_ja": "第175話 ツバキハラ方面",
         "epub_path": "text/part0013.html"
+      },
+      {
+        "file": "176.txt",
+        "number": 176,
+        "title": "第 176 話 畸形少年們",
+        "title_ja": "第176話 異形の少年達",
+        "epub_path": "text/part0014.html"
+      },
+      {
+        "file": "177.txt",
+        "number": 177,
+        "title": "第 177 話 某人的期盼，某人的願望",
+        "title_ja": "第177話 誰かの望み、誰かの願い",
+        "epub_path": "text/part0015.html"
+      },
+      {
+        "file": "178.txt",
+        "number": 178,
+        "title": "第 178 話 嫌疑",
+        "title_ja": "第178話 容疑",
+        "epub_path": "text/part0016.html"
       }
     ]
   }
