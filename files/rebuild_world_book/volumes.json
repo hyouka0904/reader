@@ -640,6 +640,27 @@
         "title": "第 181 話 襲擊與襲擊",
         "title_ja": "第181話 襲撃と襲撃",
         "epub_path": "text/part0019.html"
+      },
+      {
+        "file": "182.txt",
+        "number": 182,
+        "title": "第 182 話 巨人們",
+        "title_ja": "第182話 巨人達",
+        "epub_path": "text/part0020.html"
+      },
+      {
+        "file": "183.txt",
+        "number": 183,
+        "title": "第 183 話 擺脫依賴",
+        "title_ja": "第183話 甘えからの脱却",
+        "epub_path": "text/part0021.html"
+      },
+      {
+        "file": "184.txt",
+        "number": 184,
+        "title": "第 184 話 殺害對象",
+        "title_ja": "第184話 殺害対象",
+        "epub_path": "text/part0022.html"
       }
     ]
   }
