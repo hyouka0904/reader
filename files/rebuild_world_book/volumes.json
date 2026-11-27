@@ -619,6 +619,27 @@
         "title": "第 178 話 嫌疑",
         "title_ja": "第178話 容疑",
         "epub_path": "text/part0016.html"
+      },
+      {
+        "file": "179.txt",
+        "number": 179,
+        "title": "第 179 話 建國宣言",
+        "title_ja": "第179話 建国宣言",
+        "epub_path": "text/part0017.html"
+      },
+      {
+        "file": "180.txt",
+        "number": 180,
+        "title": "第 180 話 通訊障礙",
+        "title_ja": "第180話 通信障害",
+        "epub_path": "text/part0018.html"
+      },
+      {
+        "file": "181.txt",
+        "number": 181,
+        "title": "第 181 話 襲擊與襲擊",
+        "title_ja": "第181話 襲撃と襲撃",
+        "epub_path": "text/part0019.html"
       }
     ]
   }
