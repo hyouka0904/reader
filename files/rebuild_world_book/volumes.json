@@ -731,6 +731,27 @@
         "title": "第 193 話 阿基拉與光",
         "title_ja": "第193話 アキラとヒカル",
         "epub_path": "text/part0008.html"
+      },
+      {
+        "file": "194.txt",
+        "number": 194,
+        "title": "第 194 話 酒吧裡的談話",
+        "title_ja": "第194話 酒場での話",
+        "epub_path": "text/part0009.html"
+      },
+      {
+        "file": "195.txt",
+        "number": 195,
+        "title": "第 195 話 清剿委託",
+        "title_ja": "第195話 間引き依頼",
+        "epub_path": "text/part0010.html"
+      },
+      {
+        "file": "196.txt",
+        "number": 196,
+        "title": "第 196 話 常見的意外",
+        "title_ja": "第196話 よくある想定外の事態",
+        "epub_path": "text/part0011.html"
       }
     ]
   }
