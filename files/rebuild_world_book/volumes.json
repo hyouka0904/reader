@@ -705,5 +705,19 @@
         "epub_path": "text/part0028.html"
       }
     ]
+  },
+  {
+    "folder": "rebuild_world_book/11",
+    "title": "重組世界｜書籍版 第 11 分卷",
+    "title_ja": "リビルドワールドVII 超人 (電撃の新文芸)",
+    "chapters": [
+      {
+        "file": "191.txt",
+        "number": 191,
+        "title": "第 191 話 住院期間發生的事",
+        "title_ja": "第191話 入院中の出来事",
+        "epub_path": "text/part0006.html"
+      }
+    ]
   }
 ]
