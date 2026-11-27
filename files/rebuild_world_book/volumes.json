@@ -577,6 +577,27 @@
         "title": "第 172 話 模擬戰",
         "title_ja": "第172話 模擬戦",
         "epub_path": "text/part0010.html"
+      },
+      {
+        "file": "173.txt",
+        "number": 173,
+        "title": "第 173 話 第二深部",
+        "title_ja": "第173話 第２奥部",
+        "epub_path": "text/part0011.html"
+      },
+      {
+        "file": "174.txt",
+        "number": 174,
+        "title": "第 174 話 危險的交易",
+        "title_ja": "第174話 危険な取引",
+        "epub_path": "text/part0012.html"
+      },
+      {
+        "file": "175.txt",
+        "number": 175,
+        "title": "第 175 話 椿原一帶",
+        "title_ja": "第175話 ツバキハラ方面",
+        "epub_path": "text/part0013.html"
       }
     ]
   }
