@@ -661,6 +661,27 @@
         "title": "第 184 話 殺害對象",
         "title_ja": "第184話 殺害対象",
         "epub_path": "text/part0022.html"
+      },
+      {
+        "file": "185.txt",
+        "number": 185,
+        "title": "第 185 話 假阿基拉",
+        "title_ja": "第185話 偽アキラ",
+        "epub_path": "text/part0023.html"
+      },
+      {
+        "file": "186.txt",
+        "number": 186,
+        "title": "第 186 話 區域網路",
+        "title_ja": "第186話 ローカルネットワーク",
+        "epub_path": "text/part0024.html"
+      },
+      {
+        "file": "187.txt",
+        "number": 187,
+        "title": "第 187 話 阿基拉與由米娜",
+        "title_ja": "第187話 アキラとユミナ",
+        "epub_path": "text/part0025.html"
       }
     ]
   }
