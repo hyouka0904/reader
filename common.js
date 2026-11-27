@@ -123,9 +123,13 @@ async function loadChapters(folder) {
   const volume = volumes.find((entry) => entry.folder === folder);
   if (!volume) throw new Error("找不到這個書籍版分卷。");
 
-  return volume.chapters.map((chapter) => ({
-    name: chapter.file,
-    title: chapter.title,
-    download_url: `files/${volume.folder}/${encodeURIComponent(chapter.file)}`,
-  }));
+  const volumeFolder = volume.displayWith || volume.folder;
+  return volumes
+    .filter((entry) => (entry.displayWith || entry.folder) === volumeFolder)
+    .flatMap((entry) => entry.chapters.map((chapter) => ({
+      name: chapter.file,
+      title: chapter.title,
+      download_url: `files/${entry.folder}/${encodeURIComponent(chapter.file)}`,
+    })))
+    .sort((a, b) => leadingNumber(a.name) - leadingNumber(b.name));
 }

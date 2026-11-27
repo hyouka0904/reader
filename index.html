@@ -83,7 +83,7 @@
     const [books, web] = results;
     if (books.status === "fulfilled") {
       for (const volume of books.value) {
-        if (volume.chapters.length) addEntry(volume.folder, volume.title);
+        if (!volume.displayWith && volume.chapters.length) addEntry(volume.folder, volume.title);
       }
     }
     if (web.status === "fulfilled") {

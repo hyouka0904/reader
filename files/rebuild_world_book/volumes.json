@@ -372,7 +372,7 @@
   },
   {
     "folder": "rebuild_world_book/09",
-    "title": "重組世界｜書籍版 第 9 分卷",
+    "title": "重組世界｜書籍版 第 VI 卷",
     "title_ja": "リビルドワールドVI〈上〉 統治系管理人格",
     "chapters": [
       {
@@ -540,7 +540,8 @@
   },
   {
     "folder": "rebuild_world_book/10",
-    "title": "重組世界｜書籍版 第 10 分卷",
+    "displayWith": "rebuild_world_book/09",
+    "title": "重組世界｜書籍版 第 VI 卷下",
     "title_ja": "リビルドワールドVI〈下〉 望みの果て",
     "chapters": [
       {
