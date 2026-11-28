@@ -753,6 +753,27 @@
         "title": "第 196 話 常見的意外",
         "title_ja": "第196話 よくある想定外の事態",
         "epub_path": "text/part0011.html"
+      },
+      {
+        "file": "197.txt",
+        "number": 197,
+        "title": "第 197 話 一眼就能看出的強大",
+        "title_ja": "第197話 分かりやすい強さ",
+        "epub_path": "text/part0012.html"
+      },
+      {
+        "file": "198.txt",
+        "number": 198,
+        "title": "第 198 話 沒有通行許可的獵人",
+        "title_ja": "第198話 立入許可の無いハンター",
+        "epub_path": "text/part0013.html"
+      },
+      {
+        "file": "199.txt",
+        "number": 199,
+        "title": "第 199 話 光的誤算",
+        "title_ja": "第199話 ヒカルの誤算",
+        "epub_path": "text/part0014.html"
       }
     ]
   }
