@@ -795,6 +795,27 @@
         "title": "第 202 話 高階獵人們",
         "title_ja": "第202話 高ランクハンター達",
         "epub_path": "text/part0017.html"
+      },
+      {
+        "file": "203.txt",
+        "number": 203,
+        "title": "第 203 話 澤格爾特都市",
+        "title_ja": "第203話 ツェゲルト都市",
+        "epub_path": "text/part0018.html"
+      },
+      {
+        "file": "204.txt",
+        "number": 204,
+        "title": "第 204 話 坂下重工",
+        "title_ja": "第204話 坂下重工",
+        "epub_path": "text/part0019.html"
+      },
+      {
+        "file": "205.txt",
+        "number": 205,
+        "title": "第 205 話 白",
+        "title_ja": "第205話 シロウ",
+        "epub_path": "text/part0020.html"
       }
     ]
   }
