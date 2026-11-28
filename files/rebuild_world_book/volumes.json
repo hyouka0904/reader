@@ -928,6 +928,27 @@
         "title": "第 220 話 告別零錢裝備",
         "title_ja": "第220話 端金脱却",
         "epub_path": "text/part0015.html"
+      },
+      {
+        "file": "221.txt",
+        "number": 221,
+        "title": "第 221 話 龍河",
+        "title_ja": "第221話 ドラゴンリバー",
+        "epub_path": "text/part0016.html"
+      },
+      {
+        "file": "222.txt",
+        "number": 222,
+        "title": "第 222 話 尋找後門",
+        "title_ja": "第222話 裏口探し",
+        "epub_path": "text/part0017.html"
+      },
+      {
+        "file": "223.txt",
+        "number": 223,
+        "title": "第 223 話 地下隧道",
+        "title_ja": "第223話 地下トンネル",
+        "epub_path": "text/part0018.html"
       }
     ]
   }
