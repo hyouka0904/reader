@@ -774,6 +774,27 @@
         "title": "第 199 話 光的誤算",
         "title_ja": "第199話 ヒカルの誤算",
         "epub_path": "text/part0014.html"
+      },
+      {
+        "file": "200.txt",
+        "number": 200,
+        "title": "第 200 話 東側地區",
+        "title_ja": "第200話 東側の領域",
+        "epub_path": "text/part0015.html"
+      },
+      {
+        "file": "201.txt",
+        "number": 201,
+        "title": "第 201 話 巨蟲類",
+        "title_ja": "第201話 巨虫類",
+        "epub_path": "text/part0016.html"
+      },
+      {
+        "file": "202.txt",
+        "number": 202,
+        "title": "第 202 話 高階獵人們",
+        "title_ja": "第202話 高ランクハンター達",
+        "epub_path": "text/part0017.html"
       }
     ]
   }
