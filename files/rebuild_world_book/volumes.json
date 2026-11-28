@@ -816,6 +816,27 @@
         "title": "第 205 話 白",
         "title_ja": "第205話 シロウ",
         "epub_path": "text/part0020.html"
+      },
+      {
+        "file": "206.txt",
+        "number": 206,
+        "title": "第 206 話 永遠的緊急狀態",
+        "title_ja": "第206話 永遠の緊急事態",
+        "epub_path": "text/part0021.html"
+      },
+      {
+        "file": "207.txt",
+        "number": 207,
+        "title": "第 207 話 四方混戰",
+        "title_ja": "第207話 四つ巴",
+        "epub_path": "text/part0022.html"
+      },
+      {
+        "file": "208.txt",
+        "number": 208,
+        "title": "第 208 話 襲擊者",
+        "title_ja": "第208話 襲撃者",
+        "epub_path": "text/part0023.html"
       }
     ]
   }
