@@ -886,6 +886,27 @@
         "title": "第 214 話 私下談話",
         "title_ja": "第214話 内緒話",
         "epub_path": "text/part0009.html"
+      },
+      {
+        "file": "215.txt",
+        "number": 215,
+        "title": "第 215 話 壞女人的副業",
+        "title_ja": "第215話 悪女の副業",
+        "epub_path": "text/part0010.html"
+      },
+      {
+        "file": "216.txt",
+        "number": 216,
+        "title": "第 216 話 護衛委託",
+        "title_ja": "第216話 護衛依頼",
+        "epub_path": "text/part0011.html"
+      },
+      {
+        "file": "217.txt",
+        "number": 217,
+        "title": "第 217 話 一晚一百億歐拉姆",
+        "title_ja": "第217話 一晩１００億オーラム",
+        "epub_path": "text/part0012.html"
       }
     ]
   }
