@@ -860,5 +860,33 @@
         "epub_path": "text/part0026.html"
       }
     ]
+  },
+  {
+    "folder": "rebuild_world_book/12",
+    "title": "重組世界｜書籍版 第 12 分卷",
+    "title_ja": "リビルドワールドVIII〈上〉 第３奥部 (電撃の新文芸)",
+    "chapters": [
+      {
+        "file": "212.txt",
+        "number": 212,
+        "title": "第 212 話 敏感的話題",
+        "title_ja": "第212話 きわどい話",
+        "epub_path": "text/part0007.html"
+      },
+      {
+        "file": "213.txt",
+        "number": 213,
+        "title": "第 213 話 白的觀光",
+        "title_ja": "第213話 シロウの観光",
+        "epub_path": "text/part0008.html"
+      },
+      {
+        "file": "214.txt",
+        "number": 214,
+        "title": "第 214 話 私下談話",
+        "title_ja": "第214話 内緒話",
+        "epub_path": "text/part0009.html"
+      }
+    ]
   }
 ]
